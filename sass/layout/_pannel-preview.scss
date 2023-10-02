@@ -1,0 +1,11 @@
+.pannel-preview{
+    width: 90%;
+    margin: 4rem 0;
+    display: flex;
+    justify-content: center;
+    img{
+        background-color: $white;
+        width: 100%;
+        border-radius: 2rem;
+    }
+}

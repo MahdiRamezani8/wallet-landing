@@ -1,0 +1,43 @@
+.comments {
+  width: 90%;
+  margin: 4rem 0;
+  padding: 8rem 14rem;
+  background-color: $purple;
+  border-radius: 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__comment {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    &__text {
+      font-size: 2.4rem;
+    }
+
+    &__user {
+      display: flex;
+      align-items: center;
+        gap: 2rem;
+      &__image {
+        border-radius: 50%;
+        overflow: hidden;
+      }
+
+      &__info {
+        span {
+          font-size: 1.8rem;
+          opacity: 0.7; 
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 768px){
+    .comments{
+        padding: 6rem 4rem;  
+    }
+}

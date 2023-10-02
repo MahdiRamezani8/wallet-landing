@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+@font-face {
+  font-family: poppins-bold;
+  src: url(../../fonts/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: poppins;
+  src: url(../../fonts/Poppins-Medium.ttf);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+  background-color: $darker-gray;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+span,
+a {
+  display: inline-block;
+}

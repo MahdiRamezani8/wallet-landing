@@ -1,0 +1,14 @@
+{
+  "name": "wallet",
+  "version": "1.0.0",
+  "description": "a landing page",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass ./sass/style.scss ./css/style.css -w"
+  },
+  "author": "mahdi",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}

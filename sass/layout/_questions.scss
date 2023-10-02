@@ -1,0 +1,50 @@
+.questions {
+  width: 90%;
+  margin: 4rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__texts {
+    color: $white;
+    span {
+      font-size: 6rem;
+    }
+    p {
+      opacity: 0.4;
+      font-size: 1.8rem;
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__image {
+    width: 50%;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 1100px) {
+  .questions__texts {
+    span {
+      font-size: 5rem;
+    }
+
+    p {
+      font-size: 1.6rem;
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .questions {
+    flex-direction: column;
+    gap: 3rem;
+    width: 100%;
+    &__image {
+      width: 80%;
+    }
+  }
+}
